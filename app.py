@@ -138,7 +138,7 @@ HTML_TEMPLATE = """
     <div class="container">
         <div class="docker-icon">🐳</div>
         <h1>Hello Class!</h1>
-        <p class="welcome-text">Welcome to Docker Class</p>
+        <p class="welcome-text">Welcome to Docker Class with 10Alytics</p>
         <p class="message">How is it going?</p>
         <div class="status">✓ Running in Container</div>
         
@@ -249,4 +249,5 @@ if __name__ == '__main__':
     
     # Run Flask app
     # host='0.0.0.0' makes it accessible from outside the container
+
     app.run(host='0.0.0.0', port=port, debug=False)
